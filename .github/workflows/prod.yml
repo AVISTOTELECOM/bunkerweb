@@ -36,7 +36,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          platforms: linux/amd64
           push: true
           tags: rgy.k8s.devops-svc-ag.com/avisto/bunkerweb:${{ env.VERSION }}
-          cache-to: type=registry,ref=rgy.k8s.devops-svc-ag.com/avisto/cache:bw-amd64-cache,mode=min
+          cache-to: type=registry,ref=rgy.k8s.devops-svc-ag.com/avisto/cache:bw,mode=min
