@@ -38,4 +38,3 @@ jobs:
           context: .
           push: true
           tags: rgy.k8s.devops-svc-ag.com/avisto/bunkerweb:${{ env.VERSION }}
-          cache-to: type=registry,ref=rgy.k8s.devops-svc-ag.com/avisto/cache:bw,mode=min
