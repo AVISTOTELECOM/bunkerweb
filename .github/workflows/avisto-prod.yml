@@ -2,7 +2,7 @@ name: Build, push and deploy (AVISTO-PROD)
 
 on:
   push:
-    branches: [feature/intercept-specifics-error-codes]
+    branches: [1.4.5-intercept-specifics-error-codes]
 
 jobs:
 
